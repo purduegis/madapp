@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<twitter>
+<oauth>
+<!-- OAuth settings. -->
+<key>Q6VLtsWWww1zQgP5HePBWQ</key>
+<secret>AdCrjBt3lY71ZMwHckKDwxXJeOY5grzCjFlFVTLp3Pg</secret>
+<authEndpoint>https://api.twitter.com/oauth2/token</authEndpoint>
+<deauthEndpoint>https://api.twitter.com/oauth2/invalidate_token</deauthEndpoint>
+</oauth>
+<query>
+<!-- Twitter search query settings. -->
+<!-- Hash tags to search for -->
+<terms>#GIS #data</terms>
+<terms>#GeoSpatial #data</terms>
+<count>10</count>
+<lang>en</lang>
+<!-- result type can be either: recent, popular or mixed. -->
+<resultType>recent</resultType>
+</query>
+</twitter>
